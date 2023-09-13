@@ -1,12 +1,17 @@
 package main;//Holiday calendar
 //test
 import java.time.LocalDate;
+import holiday.Holiday;
 
 
 public class Main {
+
+    static Holiday newYearsDay = new Holiday(1,1,"Celebrates the beginning of the Gregorian calendar year.");
+    static Holiday christmas = new Holiday(12, 25, "Christmas is an annual festival commemorating the birth of Jesus Christ");
+
     public static void main(String[] args) {
         //Use a function that stores the Months and days and current date
-        System.out.println(LocalDate.now());
+        System.out.println(christmas.d);
     }
 
 
