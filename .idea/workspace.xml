@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="Declared class for Holidays">
+    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="Declared Holiday Variables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/holiday/Holiday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/holiday/Holiday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694628061748</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Declared Holiday Variables">
+      <created>1694642183090</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694642183090</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +156,7 @@
     <MESSAGE value="automatic xml changes" />
     <MESSAGE value="Package organization" />
     <MESSAGE value="Declared class for Holidays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Declared class for Holidays" />
+    <MESSAGE value="Declared Holiday Variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Declared Holiday Variables" />
   </component>
 </project>
