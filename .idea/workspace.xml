@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="Declared class for Holidays">
+    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="rohams changes that i STOLE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/holiday/Holiday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/holiday/Holiday.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
@@ -151,6 +151,7 @@
     <MESSAGE value="automatic xml changes" />
     <MESSAGE value="Package organization" />
     <MESSAGE value="Declared class for Holidays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Declared class for Holidays" />
+    <MESSAGE value="rohams changes that i STOLE" />
+    <option name="LAST_COMMIT_MESSAGE" value="rohams changes that i STOLE" />
   </component>
 </project>
