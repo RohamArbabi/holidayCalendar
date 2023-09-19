@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="changes that i didn't make but it says i did??">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/GUI.java" afterDir="false" />
-    </list>
+    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="changes that i didn't make but it says i did??" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
