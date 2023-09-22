@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="automatic xml change">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="Good bye .idea folder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695144004429</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Good bye .idea folder">
+      <created>1695249258961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695249258961</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +177,7 @@
     <MESSAGE value="rohams changes that i STOLE" />
     <MESSAGE value="changes that i didn't make but it says i did??" />
     <MESSAGE value="automatic xml change" />
-    <option name="LAST_COMMIT_MESSAGE" value="automatic xml change" />
+    <MESSAGE value="Good bye .idea folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Good bye .idea folder" />
   </component>
 </project>
