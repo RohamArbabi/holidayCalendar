@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="changes that i didn't make but it says i did??" />
+    <list default="true" id="16d40a13-c55b-4391-888d-7ad65fc47875" name="Changes" comment="Made j-frame" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695142317836</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Made j-frame">
+      <created>1695143858526</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695143858526</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +169,7 @@
     <MESSAGE value="Declared class for Holidays" />
     <MESSAGE value="rohams changes that i STOLE" />
     <MESSAGE value="changes that i didn't make but it says i did??" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes that i didn't make but it says i did??" />
+    <MESSAGE value="Made j-frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made j-frame" />
   </component>
 </project>
