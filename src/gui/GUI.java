@@ -18,7 +18,5 @@ public class GUI {
         frame.setSize(width, height);
 
         frame.setVisible(true);
-
-
     }
 }
