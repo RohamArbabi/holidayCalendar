@@ -17,7 +17,10 @@ public class Main {
         Holiday independanceDay = new Holiday(7,4,"Celebrates the 1776 adoption of the Declaration of Independence from British rule.");
         Holiday laborDay = new Holiday(9, new int[]{1,2,3,4,5,6,7}, "Honors and recognizes the American labor movement.");
         Holiday indigenousPeoplesDay = new Holiday(10, new int[]{8,9,10,11,12,13,14}, "Indigenous Peoples' Day is a holiday that celebrates and honors indigenous American peoples and commemorates their histories and cultures.");
-        Holiday christmas = new Holiday(12, 25, "Christmas is an annual festival commemorating the birth of Jesus Christ.");
+        Holiday veteransDay = new Holiday(11,11,"Honors all veterans of the United States armed forces.");
+        Holiday thanksgivingDay = new Holiday(11, new int[]{22,23,24,25,26,27,28}, "Traditionally celebrates the giving of thanks for the autumn harvest, and commonly includes the sharing of a turkey dinner.");
+        Holiday christmasDay = new Holiday(12, 25, "Christmas is an annual festival commemorating the birth of Jesus Christ.");
+
 
         //Use a function that stores the Months and days and current date
         System.out.print(birthdayOfMartinLutherKingJr);
