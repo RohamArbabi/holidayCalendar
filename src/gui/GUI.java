@@ -12,7 +12,7 @@ import java.awt.*;
 
 public class GUI {
 
-    public static void main(String[] args) {
+    public GUI() {
         JFrame frame = new JFrame("fromug");
         JPanel panel = new JPanel();
         panel.setLayout(new FlowLayout());
@@ -24,10 +24,10 @@ public class GUI {
         btn.setVisible(true);
         panel.add(btn);
 
-        frame.setSize(1440, 720);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         frame.add(panel);
+        frame.setSize(1440, 720);
+        frame.setLocationRelativeTo(null);
     }
 }

@@ -1,6 +1,12 @@
 package date;
 
+import java.time.LocalDate;
+import java.util.Calendar;
+import java.util.Date;
+
 public class Year {
+    static Calendar cal = Calendar.getInstance();
+
 
 
     public static boolean isLeapYear(int year) {
@@ -17,13 +23,13 @@ public class Year {
         return false;
     }
 
-    public Date dateFromWeekdayNumber(int day,int month ,int num, int year) {
-
-
+    public Date dateFromWeekdayNumber(int day, int month, int num, int year) {
         return new Date(4, 4, 4); // changeme
-
     }
 
-
+    public static int dayFromDate(int m, int d, int y) {
+        cal.set(y - 1900, m, d);
+        return cal.get(Calendar.DAY_OF_WEEK);
+    }
 
 }

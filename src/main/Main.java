@@ -1,5 +1,6 @@
 package main;//Holiday calendar
 //test
+import gui.GUI;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -26,8 +27,10 @@ public class Main {
 
 
         //Use a function that stores the Months and days and current date
-        System.out.print(date.Year.isLeapYear(1616));
 
+        new GUI();
+
+        System.out.println(Year.dayFromDate(10, 7, 2023));
     }
 
 
