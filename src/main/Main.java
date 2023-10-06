@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 import holiday.Holiday;
 import date.Year;
+import date.Year;
+
 
 
 public class Main {
@@ -24,7 +26,7 @@ public class Main {
 
 
         //Use a function that stores the Months and days and current date
-        System.out.print(birthdayOfMartinLutherKingJr);
+        System.out.print(date.Year.isLeapYear(1616));
 
     }
 
