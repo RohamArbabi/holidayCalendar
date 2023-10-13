@@ -1,5 +1,7 @@
 package date;
 
+import java.util.Arrays;
+
 public class Date {
     private int d, m, y;
 
@@ -25,5 +27,9 @@ public class Date {
 
     public int getYear() {
         return this.y;
+    }
+
+    public String toString() {
+        return "Month: " + m + ", Day: " + d + "Year: " + y;
     }
 }

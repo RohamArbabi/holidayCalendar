@@ -26,11 +26,11 @@ public class Main {
         Holiday christmasDay = new Holiday(12, 25, "Christmas is an annual festival commemorating the birth of Jesus Christ.");
 
 
-        //Use a function that stores the Months and days and current date
+        //Use a function that stores the months and days and current date
 
         new GUI();
 
-        System.out.println(Year.dayFromDate(10, 7, 2023));
+        System.out.println(Year.dateFromWeekdayNumber(1, 2023, 2, 3).getDay());
     }
 
 

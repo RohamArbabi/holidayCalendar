@@ -2,7 +2,6 @@ package date;
 
 import java.time.LocalDate;
 import java.util.Calendar;
-import java.util.Date;
 
 public class Year {
     static Calendar cal = Calendar.getInstance();
@@ -23,13 +22,40 @@ public class Year {
         return false;
     }
 
-    public Date dateFromWeekdayNumber(int day, int month, int num, int year) {
-        return new Date(4, 4, 4); // changeme
-    }
-
+    /**
+     * Gets the weekday of a given date
+     * @param m
+     * @param d
+     * @param y
+     * @return
+     */
     public static int dayFromDate(int m, int d, int y) {
         cal.set(y - 1900, m, d);
         return cal.get(Calendar.DAY_OF_WEEK);
     }
 
+    /**
+     * Gets a date from a certain number weekday (e.g. the second Monday of January 2024)
+     * @param month
+     * @param year
+     * @param weekday
+     * @param num The numbered weekday to look for (1st, 2nd, 3rd, 4th, 5th)
+     * @return
+     */
+    public static Date dateFromWeekdayNumber(int month, int year, int weekday, int num) {
+        // for (int i = 0; i <
+        int weekdayCounter = 0;
+        int dayCounter = 1;
+        while (weekdayCounter < num) {
+            if (dayFromDate(month, dayCounter, year) == weekday) {
+                weekdayCounter ++;
+
+                if (weekdayCounter == num) {
+                    return new Date(month, dayCounter, year);
+                }
+            }
+        }
+
+        return new Date(0, 0, 0);
+    }
 }

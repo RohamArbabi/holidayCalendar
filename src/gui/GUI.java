@@ -29,5 +29,6 @@ public class GUI {
         frame.add(panel);
         frame.setSize(1440, 720);
         frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
     }
 }
