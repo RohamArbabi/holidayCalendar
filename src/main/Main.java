@@ -29,8 +29,8 @@ public class Main {
         //Use a function that stores the months and days and current date
 
         new GUI();
-
-        System.out.println(Year.dateFromWeekdayNumber(1, 2023, 2, 3).getDay());
+        System.out.println(Year.dayFromDate(10, 14, 2009));
+        System.out.println(Year.dateFromWeekdayNumber(1, 2023, 2, 3).toString());
     }
 
 

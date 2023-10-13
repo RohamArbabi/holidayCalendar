@@ -54,6 +54,7 @@ public class Year {
                     return new Date(month, dayCounter, year);
                 }
             }
+            dayCounter ++;
         }
 
         return new Date(0, 0, 0);
