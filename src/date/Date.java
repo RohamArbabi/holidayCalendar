@@ -30,6 +30,6 @@ public class Date {
     }
 
     public String toString() {
-        return "Month: " + m + ", Day: " + d + "Year: " + y;
+        return "Month: " + m + ", Day: " + d + " Year: " + y;
     }
 }
