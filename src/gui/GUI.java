@@ -18,11 +18,10 @@ public class GUI {
         panel.setLayout(new FlowLayout());
 
 
-        JButton btn = new JButton();
-        btn.setText("Haden");
-        btn.setSize(100, 100);
-        btn.setVisible(true);
-        panel.add(btn);
+        JTextPane textPane = new JTextPane();
+        textPane.setSize(1000, 1000);
+        textPane.setVisible(true);
+        panel.add(textPane);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
