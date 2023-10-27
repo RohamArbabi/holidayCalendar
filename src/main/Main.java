@@ -16,9 +16,9 @@ public class Main {
 
     public static void main(String[] args) {
         Holiday newYearsDay = new Holiday(1,1,"Celebrates the beginning of the Gregorian calendar year.");
-        Holiday birthdayOfMartinLutherKingJr = new Holiday(1, Year.dateFromWeekdayNumber(1, curYear, 2, 3).getDay(), "Honors Dr. Martin Luther King Jr, a civil rights leader who was born on January 15, 1929.");
-        Holiday washingtonsBirthday = new Holiday(2, Year.dateFromWeekdayNumber(2, curYear, 2, 3).getDay(), "Honors George Washington, Founding Father and the first U.S. president, who was born on February 22, 1732.");
-        //Holiday memorialDay = new Holiday(5, new int[]{25,26,27,28,29,30,31}, "Honors U.S. military personnel who have fought and died while serving in the United States Armed Forces.");
+        Holiday mlkDay = new Holiday(1, Year.dateFromWeekdayNumber(1, curYear, 2, 3).getDay(), "Honors Dr. Martin Luther King Jr, a civil rights leader who was born on January 15, 1929.");
+        Holiday presidentsDay = new Holiday(2, Year.dateFromWeekdayNumber(2, curYear, 2, 3).getDay(), "President's day is celebrated to honor all those who served as presidents of the United States and, since 1879, has been the federal holiday honoring Founding Father George Washington, who led the Continental Army to victory in the American Revolutionary War.");
+        //Holiday memorialDay = new Holiday, "Honors U.S. military personnel who have fought and died while serving in the United States Armed Forces.");
         Holiday juneteenthIndependanceDay = new Holiday(6,19,"Commemorates the emancipation of enslaved African Americans on the anniversary of the 1865 date when emancipation was announced in Galveston, Texas.");
         Holiday independenceDay = new Holiday(7,4,"Celebrates the 1776 adoption of the Declaration of Independence from British rule.");
         Holiday laborDay = new Holiday(9, Year.dateFromWeekdayNumber(9, curYear, 2, 1).getDay(), "Honors and recognizes the American labor movement.");
@@ -30,8 +30,8 @@ public class Main {
 
         //Use a function that stores the months and days and current date
 
-        new GUI();
-        System.out.println(laborDay);
+        //new GUI();
+        System.out.println(presidentsDay);
 
     }
 

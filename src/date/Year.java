@@ -30,7 +30,8 @@ public class Year {
      * @return
      */
     public static int dayFromDate(int m, int d, int y) {
-        cal.set(y, m, d);
+        cal.clear();
+        cal.set(y - 1900, m, d);
         return cal.get(Calendar.DAY_OF_WEEK);
     }
 
@@ -48,7 +49,7 @@ public class Year {
         int dayCounter = 1;
         while (weekdayCounter < num) {
             if (dayFromDate(month, dayCounter, year) == weekday) {
-                weekdayCounter ++;
+                ++ weekdayCounter;
 
 
                 if (weekdayCounter == num) {
@@ -56,7 +57,7 @@ public class Year {
                 }
             }
 
-            dayCounter ++;
+            ++ dayCounter;
 
         }
 
