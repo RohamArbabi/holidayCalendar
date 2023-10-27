@@ -48,8 +48,10 @@ public class Year {
         int weekdayCounter = 0;
         int dayCounter = 1;
         while (weekdayCounter < num) {
+            System.out.println(dayCounter);
             if (dayFromDate(month, dayCounter, year) == weekday) {
-                ++ weekdayCounter;
+                System.out.println("found weekday");
+                weekdayCounter ++;
 
 
                 if (weekdayCounter == num) {
@@ -57,7 +59,7 @@ public class Year {
                 }
             }
 
-            ++ dayCounter;
+            dayCounter ++;
 
         }
 
