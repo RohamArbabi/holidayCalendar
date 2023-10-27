@@ -10,24 +10,42 @@ import main.Main;
 import javax.swing.*;
 import java.awt.*;
 
+//public class GUI {
+//
+//    public GUI() {
+//        JFrame frame = new JFrame("fromug");
+//        JPanel panel = new JPanel();
+//        panel.setLayout(new FlowLayout());
+//
+//
+//        JTextPane textPane = new JTextPane();
+//        textPane.setSize(1000, 1000);
+//        textPane.setVisible(true);
+//        panel.add(textPane);
+//
+//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        frame.setVisible(true);
+//        frame.add(panel);
+//        frame.setSize(1440, 720);
+//        frame.setLocationRelativeTo(null);
+//        frame.setResizable(false);
+//    }
+//}
+
+import javax.imageio.ImageIO;
+
+import java.awt.*;
+import java.io.IOException;
+import java.io.InputStream;
+
 public class GUI {
 
+    private CalWindow calWindow;
+    private CalPanel calPanel;
     public GUI() {
-        JFrame frame = new JFrame("fromug");
-        JPanel panel = new JPanel();
-        panel.setLayout(new FlowLayout());
-
-
-        JTextPane textPane = new JTextPane();
-        textPane.setSize(1000, 1000);
-        textPane.setVisible(true);
-        panel.add(textPane);
-
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-        frame.add(panel);
-        frame.setSize(1440, 720);
-        frame.setLocationRelativeTo(null);
-        frame.setResizable(false);
+        calPanel = new CalPanel();
+        calWindow = new CalWindow(calPanel);
+        calPanel.requestFocus();
     }
 }
+
