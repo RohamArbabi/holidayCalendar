@@ -15,10 +15,7 @@ public class CalPanel extends JPanel {
     public static final int PANEL_HEIGHT = 768;
 
     public static class images {
-        public static BufferedImage clog;
-        public static BufferedImage cactiLvl1;
-        public static BufferedImage sand;
-        public static BufferedImage cactusSeeds;
+        public static BufferedImage guher;
     }
     public static class keys {
         public static boolean w = false;
@@ -129,6 +126,7 @@ public class CalPanel extends JPanel {
 
     private void loadImages() {
 //        images.clog = importImg("/clog.png");
+        images.guher = importImg("/guher.png");
     }
 
     private void setPanelSize() {
@@ -144,6 +142,7 @@ public class CalPanel extends JPanel {
 
         g.setColor(new Color(0, 0, 0));
         g.fillRect(100, 100, 50, 50);
+        g.drawImage(images.guher, 50, 50, 100, 100, null);
 
         repaint();
     }
